@@ -2,15 +2,16 @@
 
 Video tutorial: https://youtu.be/5RwhyZnVRS8
 
-A class should have only one responsibility.
 
-They should only have one reason to change per class. 
+To run the code, run `ts-node .\Program.ts` from either `original/` or `refactored/`
 
-In the original code, we would have to change this code if we:
-- Change messaging to the user
-- Change how we capture the first and last name
-- Change how we validate first/last names
-- Change how we capture the first and last name
+A class should have only one responsibility. It should only have one reason to change per class. 
+
+In the original code (`original/Program.ts`), we would have to change `main()` if we:
+- Changed messaging to the user
+- Changed how we capture the first and last name
+- Changed how we validate first/last names
+- Changed how we capture the first and last name
 
 For StandardMessage.ts, 'one single change' would be a change in the messaging
 
